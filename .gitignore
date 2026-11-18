@@ -1,0 +1,11 @@
+/Data/
+work/
+*.ogg
+*.wav
+*.zip
+*.exe
+__pycache__/
+*.pyc
+NPCVoicesLog.txt
+MawLanguageLog.txt
+MawLanguageUntranslated.txt

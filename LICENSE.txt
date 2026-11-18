@@ -1,0 +1,31 @@
+MAW NPC Voices Deutsch - Nutzungsbedingungen / terms of use
+===========================================================
+
+Deutsch
+-------
+1. Code (Lua-Module, Python-Werkzeuge): frei nutzbar, kopierbar und änderbar. Diesen Hinweis behalten.
+2. Deutsche Stimmen: mit ElevenLabs erzeugt (Stimmen "Michael Danisch" und "Sarah"). Frei nutzbar mit dem
+   Spiel Might and Magic 8 / MMMerge / MAW. NICHT erlaubt: Verkauf, Training von KI-Modellen oder
+   Weitergabe unter anderen Bedingungen.
+3. Deutsche Texte: KI-Übersetzung, von Hand geprüft. Texte, die es im deutschen Originalspiel gibt, sind
+   NICHT in diesem Paket. Der Installer erzeugt sie aus deinen eigenen Spieldateien. Das gilt auch für
+   die Stimmen der Gruppenmitglieder.
+4. Might and Magic ist eine Marke der Rechteinhaber. Das ist ein nicht-kommerzielles Fan-Projekt, nicht
+   von ihnen erstellt oder genehmigt. Wenn ein Rechteinhaber die Entfernung einer Datei verlangt,
+   entfernen wir sie.
+5. MAW stammt von Malekitsu (github.com/Malekitsu/Maw-Mod-MMMerge). Diese Ergänzung ist kein Teil von MAW.
+6. Keine Gewährleistung.
+
+English
+-------
+1. Code (Lua modules, Python tools): free to use, copy and change. Keep this notice.
+2. German voices: made with ElevenLabs (voices "Michael Danisch" and "Sarah"). Free to use with the game
+   Might and Magic 8 / MMMerge / MAW. NOT allowed: selling them, using them to train AI models, or
+   passing them on under other terms.
+3. German texts: translated by AI and checked by hand. The texts that exist in the original German game
+   are NOT in this package. The installer makes them from your own game files, and the same holds for
+   the voices of the party members.
+4. Might and Magic is a trademark of its owners. This is a non-commercial fan project, not made or
+   approved by them. If an owner asks us to remove a file, we will remove it.
+5. MAW is made by Malekitsu (github.com/Malekitsu/Maw-Mod-MMMerge). This add-on is not part of MAW.
+6. No warranty.

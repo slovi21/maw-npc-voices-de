@@ -1,0 +1,79 @@
+MAW NPC Voices Deutsch - Installation
+======================================
+
+Was du bekommst
+---------------
+Die deutsche Fassung für Might and Magic 8 mit MMMerge und MAW:
+* deutsche Dialoge, Begrüßungen, Gerüchte und Oberflächentexte,
+* rund 4.500 deutsche Sprachaufnahmen für die Leute im Spiel (männliche und weibliche Stimme),
+* die deutschen Stimmen deiner Gruppenmitglieder (aus deinem eigenen Spiel erzeugt),
+* eine Einstellungsseite "Sprache / Language" im Spiel.
+Die Mod läuft allein. Die englischen Stimmen (MAW NPC Voices) brauchst du nicht.
+
+Das brauchst du vorher
+----------------------
+Might and Magic 8 (GOG) mit MMMerge, Patch, Multiplayer und der MAW-Mod, installiert in der
+Reihenfolge aus der MAW-Anleitung. Das Spiel muss starten und laufen.
+Dein Spielordner muss die Dateien Data\GermanT.lod und Data\GermanD.lod enthalten. Daraus erzeugt der
+Installer die Originaltexte und die Stimmen deiner Gruppenmitglieder. Diese Dateien sind nicht in
+unserem Paket. Fehlen sie, bleiben diese Stellen englisch.
+Schließe das Spiel, bevor du installierst.
+
+Installation (rund 450 MB)
+--------------------------
+1. Entpacke MAW-NPC-Voices-Deutsch-<Version>.zip in den Spielordner
+   (das ist der Ordner mit der MM8.exe). Antworte mit "Ja", wenn Windows fragt,
+   ob Ordner zusammengeführt werden sollen.
+2. Doppelklicke im Spielordner auf Install_German.exe.
+   Windows warnt eventuell ("Der Computer wurde durch Windows geschützt"), weil die Datei neu und
+   nicht signiert ist: Klicke auf "Weitere Informationen", dann auf "Trotzdem ausführen".
+   Es muss nichts anderes installiert werden.
+3. Warte, bis "Done." erscheint (2 bis 5 Minuten). Drücke die Eingabetaste zum Schließen.
+4. Starte das Spiel. Es ist jetzt deutsch.
+
+Die Mod verändert keine Datei von MAW. Sie legt neue Dateien an:
+  Scripts\General\zzzMaw_Language.lua, zzzMaw_LanguageMenu.lua, zzzMaw_LanguageUI.lua, zzzMaw_NPCVoices.lua
+  Data\Localization\de\       (die deutschen Texte)
+  Data\Voices\NPC_de\, Char_de\ und einige .tsv-Dateien in Data\Voices
+Nur in MAWSettings.lua wird die Zeile  language = "de"  eingetragen.
+
+Einstellungen (Seite "Sprache / Language" im Spielmenü, MAW Extras)
+-------------------------------------------------------------------
+* Sprache              : Deutsch oder English. Texte und Stimmen folgen dieser Einstellung.
+* Gegenstände, Tooltips: English (Standard) oder Deutsch.
+* Läden, Häuser        : English (Standard) oder Deutsch.
+* Sprachausgabe        : An oder Aus.
+Gegenstände und Häuser sind absichtlich zuerst englisch: Viele Spieler kennen die englischen Namen.
+Nach dem Ändern einer Option das Spiel neu starten.
+
+Tasten
+------
+F9  wiederholt die letzte Sprachausgabe (bis zu dreimal drücken für die davor).
+F10 beendet die Sprachausgabe.
+Andere Tasten: in MAWSettings.lua  repeatVoiceKey = 120,  stopVoiceKey = 121,  (Tastencodes stehen dort).
+
+"Check game files" im MAW-Hauptmenü
+-----------------------------------
+Die Dateiprüfung von MAW führt unsere vier Skripte als "Unknown" auf. Das ist richtig so: Die deutsche
+Fassung ist eine Ergänzung, kein Teil von MAW. Lösche die Dateien nicht, sonst ist das Spiel wieder englisch.
+
+Zurück auf Englisch
+-------------------
+Stelle "Sprache" im Spiel auf English und starte neu. Oder schreibe in MAWSettings.lua  language = "en"
+
+Deinstallieren
+--------------
+Lösche die vier Skripte oben, den Ordner Data\Localization\de, die Ordner Data\Voices\NPC_de und
+Data\Voices\Char_de, den Ordner Tools\Voice sowie Install_German.exe und die Dateien
+MAW-NPC-Voices-Deutsch-INSTALL.txt und MAW-NPC-Voices-Deutsch-LICENSE.txt. Die Zeile language in MAWSettings.lua kann bleiben.
+
+Wenn etwas nicht geht
+---------------------
+* Stille: Prüfe, ob "Sprachausgabe" auf An steht und der Regler für Charakterstimmen nicht auf null steht.
+* Text ist noch englisch: Das ist ein Text, den das Spiel in einem Skript erzeugt, oder ein Text, den eine
+  neuere MAW-Version geändert hat. Schicke uns bitte die Datei MawLanguageUntranslated.txt aus dem Spielordner.
+* Fehlermeldungen: MawLanguageLog.txt und NPCVoicesLog.txt im Spielordner.
+* Fragen und Fehler: Seite "Issues" auf github.com/slovi21/maw-npc-voices-deutsch
+
+Das ist ein Fan-Projekt. Es stammt nicht von den Rechteinhabern von Might and Magic
+und ist nicht von ihnen genehmigt. Siehe MAW-NPC-Voices-Deutsch-LICENSE.txt.
