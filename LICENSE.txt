@@ -7,7 +7,7 @@ Deutsch
 2. Deutsche Stimmen: mit ElevenLabs erzeugt (Stimmen "Michael Danisch" und "Sarah"). Frei nutzbar mit dem
    Spiel Might and Magic 8 / MMMerge / MAW. NICHT erlaubt: Verkauf, Training von KI-Modellen oder
    Weitergabe unter anderen Bedingungen.
-3. Deutsche Texte: KI-Übersetzung, von Hand geprüft. Texte, die es im deutschen Originalspiel gibt, sind
+3. Deutsche Texte: KI-Übersetzung, automatisch und in Stichproben geprüft. Texte, die es im deutschen Originalspiel gibt, sind
    NICHT in diesem Paket. Der Installer erzeugt sie aus deinen eigenen Spieldateien. Das gilt auch für
    die Stimmen der Gruppenmitglieder.
 4. Might and Magic ist eine Marke der Rechteinhaber. Das ist ein nicht-kommerzielles Fan-Projekt, nicht
@@ -22,7 +22,7 @@ English
 2. German voices: made with ElevenLabs (voices "Michael Danisch" and "Sarah"). Free to use with the game
    Might and Magic 8 / MMMerge / MAW. NOT allowed: selling them, using them to train AI models, or
    passing them on under other terms.
-3. German texts: translated by AI and checked by hand. The texts that exist in the original German game
+3. German texts: translated by AI, checked automatically and by sampling. The texts that exist in the original German game
    are NOT in this package. The installer makes them from your own game files, and the same holds for
    the voices of the party members.
 4. Might and Magic is a trademark of its owners. This is a non-commercial fan project, not made or

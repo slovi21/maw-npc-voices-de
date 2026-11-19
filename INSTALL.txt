@@ -1,99 +1,116 @@
 MAW NPC Voices DE - Installation
-======================================
+================================
 
 Was du bekommst
 ---------------
-Die deutsche Fassung für Might and Magic 8 mit MMMerge und MAW (alle Spielwelten: MM6, MM7, MM8 und MAW):
+Might and Magic 8 mit MMMerge und MAW auf Deutsch, in allen drei Welten (MM6, MM7, MM8) und in den Ergänzungen von MAW:
 * deutsche Dialoge, Begrüßungen, Gerüchte und Oberflächentexte,
-* rund 4.500 deutsche Sprachaufnahmen für die Leute im Spiel (männliche und weibliche Stimme),
-* die deutschen Stimmen deiner Gruppenmitglieder (aus deinem eigenen Spiel erzeugt),
+* rund 4.500 deutsche Sprachaufnahmen für die Leute im Spiel (Männer und Frauen mit verschiedenen Stimmen),
+* deutsche Stimmen für deine Helden (aus deinem eigenen Spiel erzeugt),
 * eine Einstellungsseite "Sprache / Language" im Spiel.
-Die Mod läuft allein. Die englischen Stimmen (MAW NPC Voices EN) brauchst du nicht.
+Die Mod läuft allein. Die englischen Stimmen (MAW NPC Voices EN) brauchst du nicht, sie vertragen sich aber mit dieser Mod.
+Deine Spielstände bleiben unberührt.
 
 Das brauchst du vorher
 ----------------------
-Might and Magic 8 (GOG) mit MMMerge, Patch, Multiplayer und der MAW-Mod, installiert in der
-Reihenfolge aus der MAW-Anleitung. Das Spiel muss starten und laufen.
-Dazu zwei Dateien aus der deutschen Ausgabe von Might and Magic 8 im Ordner Data deines Spiels:
-* GermanT.lod (deutsche Texte des Originalspiels): nötig. Ohne sie bricht der Installer ab und ändert nichts.
-* GermanD.lod (deutsche Aufnahmen des Originalspiels): empfohlen. Ohne sie sprechen deine Gruppenmitglieder
-  weiter englisch, alles andere wird deutsch.
+* Might and Magic 8 mit MMMerge und MAW, installiert nach der MAW-Anleitung. Das Spiel muss starten und laufen.
+* Den Spielordner: das ist der Ordner mit der Datei MM8.exe (Rechtsklick auf die Verknüpfung des Spiels,
+  dann "Dateipfad öffnen").
+* Zwei Dateien aus der deutschen Ausgabe von Might and Magic 8 im Ordner Data des Spielordners:
+  - GermanT.lod (deutsche Texte): NÖTIG. Ohne sie bricht der Installer ab und ändert nichts.
+  - GermanD.lod (deutsche Aufnahmen): empfohlen. Ohne sie bleiben die Stimmen deiner Helden, die Begrüßungen
+    in den Läden und einige Ereignis-Sätze englisch.
+  Woher? GOG verkauft Might and Magic 8 auch auf Deutsch. Hast du die deutsche Sprache installiert, liegen beide
+  Dateien schon in Data. Sonst lade bei GOG die deutsche Sprachversion herunter und kopiere nur diese zwei Dateien
+  aus deren Ordner Data in den Ordner Data deines Spielordners.
 
-Was im Paket ist und was der Installer erzeugt
-----------------------------------------------
-Im Paket (von uns erstellt): die deutschen NPC-Stimmen für MM6, MM7, MM8 und MAW, die Übersetzungen der
-Dialoge aus MM6, MM7 und MAW, die deutschen MAW-Menütexte, vier Skripte und Install_German.exe.
-Nicht im Paket, weil sie den Rechteinhabern des Originalspiels gehören: die deutschen Originaltexte und
--aufnahmen von Might and Magic 8. Install_German.exe holt sie aus deinem Spiel, nur auf deinem PC, ohne Internet:
-  1/3 Dialogtexte    : die 965 deutschen Originaldialoge von MM8, zusammen mit den Übersetzungen aus dem Paket.
-  2/3 Oberfläche     : deutsche Namen von Zaubern, Fähigkeiten, Quests, Orten, Gegenständen und Läden aus MM8.
-  3/3 Heldenstimmen  : die Sprüche deiner Gruppenmitglieder. 29 Stimmen gibt es im deutschen MM8; die übrigen
-                       50 (aus MM6, MM7 und MAW) bekommen eine deutsche Stimme vom gleichen Geschlecht und Volk.
-Zum Schluss trägt er in MAWSettings.lua die Zeile language = "de" ein. Nach einem MAW-Update kannst du
-Install_German.exe einfach noch einmal starten.
-Schließe das Spiel, bevor du installierst.
-
-Installation (rund 450 MB)
+Installation (rund 430 MB)
 --------------------------
-1. Entpacke MAW-NPC-Voices-DE-<Version>.zip in den Spielordner
-   (das ist der Ordner mit der MM8.exe). Antworte mit "Ja", wenn Windows fragt,
-   ob Ordner zusammengeführt werden sollen.
-2. Doppelklicke im Spielordner auf Install_German.exe.
-   Windows warnt eventuell ("Der Computer wurde durch Windows geschützt"), weil die Datei neu und
-   nicht signiert ist: Klicke auf "Weitere Informationen", dann auf "Trotzdem ausführen".
-   Es muss nichts anderes installiert werden.
-3. Warte, bis "Done." erscheint (2 bis 5 Minuten). Drücke die Eingabetaste zum Schließen.
-4. Starte das Spiel. Es ist jetzt deutsch.
+1. Schließe das Spiel.
+2. Entpacke MAW-NPC-Voices-DE-<Version>.zip in den Spielordner. Fragt Windows, ob Ordner zusammengeführt
+   oder Dateien ersetzt werden sollen, antworte mit "Ja".
+3. Doppelklicke im Spielordner auf Install_German.exe.
+   Windows warnt eventuell ("Der Computer wurde durch Windows geschützt"), weil die Datei neu und nicht
+   signiert ist: Klicke auf "Weitere Informationen", dann auf "Trotzdem ausführen".
+4. Ein schwarzes Fenster zeigt drei Schritte. Nach einigen Minuten erscheint "Done.".
+   Drücke die Eingabetaste zum Schließen.
+5. Starte das Spiel. Es ist jetzt deutsch.
+Nach einem MAW-Update kannst du Install_German.exe einfach noch einmal starten.
 
-Die Mod verändert keine Datei von MAW. Sie legt neue Dateien an:
-  Scripts\General\zzzMaw_Language.lua, zzzMaw_LanguageMenu.lua, zzzMaw_LanguageUI.lua, zzzMaw_NPCVoices.lua
-  Data\Localization\de\       (die deutschen Texte)
-  Data\Voices\NPC_de\, Char_de\ und einige .tsv-Dateien in Data\Voices
-Nur in MAWSettings.lua wird die Zeile  language = "de"  eingetragen.
+Was im Paket ist und was der Installer macht
+--------------------------------------------
+Im Paket (von uns gemacht): die deutschen Sprachaufnahmen, deutsche Begrüßungen der Ladenbesitzer, unsere
+Übersetzungen (2.903 Dialoge ohne passendes deutsches Original, vor allem aus MM6, MM7 und MAW, und die Texte
+von MMMerge und MAW; KI-Übersetzung, automatisch und in Stichproben geprüft), vier Skripte und Install_German.exe.
+Nicht im Paket sind die deutschen Texte und Aufnahmen des Originalspiels: Sie gehören den Rechteinhabern von
+Might and Magic. Install_German.exe holt sie aus deinem Spiel, nur auf deinem PC, ohne Internet:
+  1/3 Dialog texts    : die 965 deutschen Originaldialoge von MM8, zusammen mit unseren Übersetzungen.
+  2/3 Interface texts : deutsche Namen und Beschreibungen von Zaubern, Fähigkeiten, Quests, Orten,
+                        Gegenständen und Läden aus MM8, dazu unsere Übersetzungen der MMMerge- und MAW-Texte.
+  3/3 Party voices    : die Sprüche deiner Helden. 29 der 79 Heldenstimmen gibt es im deutschen Original;
+                        die übrigen 50 bekommen eine davon, vom gleichen Geschlecht und, wo es geht, vom
+                        gleichen Volk. Dabei werden auch die Laden-Begrüßungen angemeldet.
+Zum Schluss trägt er in MAWSettings.lua die Zeile  language = "de"  ein.
 
 Einstellungen im Spiel
----------------------
+----------------------
 Im Optionsmenü des Spiels blätterst du mit den Pfeilen durch die Zusatzseiten von MAW. Eine davon heißt
 "Sprache / Language". Ein Klick auf eine Zeile schaltet sie um:
-* Sprache              : Deutsch oder English. Texte und Stimmen folgen dieser Einstellung.
-* Gegenstände, Tooltips: English (Standard) oder Deutsch.
-* Läden, Häuser        : English (Standard) oder Deutsch.
-* Sprachausgabe        : An oder Aus.
-Gegenstände und Häuser sind absichtlich zuerst englisch: Viele Spieler kennen die englischen Namen.
-Sprache, Gegenstände und Läden gelten nach einem Neustart des Spiels, die Sprachausgabe sofort.
-Lautstärke: Die NPC-Stimmen folgen dem Regler für Stimmen in den Spieloptionen.
-Für Fortgeschrittene, in MAWSettings.lua:  npcVoiceVolume = 0.8,  (0.0 bis 1.0 im Verhältnis zum Regler)
-und  npcVoices = false,  (Sprachausgabe ganz abschalten).
+* Sprache              : Deutsch oder English. Alle Texte und die Sprachausgabe. Gilt nach Neustart.
+* Gegenstände, Tooltips: English (Standard) oder Deutsch. Gilt nach Neustart.
+* Läden, Häuser        : English (Standard) oder Deutsch. Namen, Besitzer und Schilder, die Gespräche mit
+                         den Bewohnern von Häusern und die Begrüßung im Laden. Gilt nach Neustart.
+* Sprachausgabe        : An oder Aus. Gilt sofort.
+Gegenstände, Läden und Häuser sind absichtlich zuerst englisch: Viele Spieler kennen die englischen Namen.
+Mit Sprache English hörst du englische Stimmen, wenn auch MAW NPC Voices EN installiert ist, sonst bleibt es still.
+Lautstärke: Die Stimmen folgen dem Regler für Stimmen in den Optionen des Spiels.
 
 Tasten
 ------
-F9  wiederholt die letzte Sprachausgabe (bis zu dreimal drücken für die davor).
-F10 beendet die Sprachausgabe.
-Andere Tasten: in MAWSettings.lua  repeatVoiceKey = 120,  stopVoiceKey = 121,  (Tastencodes stehen dort).
+F9  spielt den letzten Satz noch einmal. Innerhalb von 2 Sekunden wieder F9: der Satz davor, beim dritten Mal der davor.
+F10 beendet die Sprachausgabe. Ein langer Text spricht sonst weiter, auch wenn das Gespräch geschlossen ist.
 
-"Check game files" im MAW-Hauptmenü
------------------------------------
-Die Dateiprüfung von MAW führt unsere vier Skripte als "Unknown" auf. Das ist richtig so: Die deutsche
-Fassung ist eine Ergänzung, kein Teil von MAW. Lösche die Dateien nicht, sonst ist das Spiel wieder englisch.
+Für Fortgeschrittene (MAWSettings.lua im Spielordner, Zeile innerhalb von "return { ... }" einfügen, Spiel neu starten)
+---------------------------------------------------------------------------------------------------------------------
+    npcVoiceVolume = 0.8,   -- Lautstärke 0.0 bis 1.0 im Verhältnis zum Regler (Standard 1.0)
+    repeatVoiceKey = 120,   -- andere Taste statt F9 (die Tastencodes stehen in der Datei)
+    stopVoiceKey = 121,     -- andere Taste statt F10
+    npcVoices = false,      -- Sprachausgabe ganz aus; der Schalter "Sprachausgabe" wirkt dann nicht mehr
+Hat die MAW-Seite für Tastenbelegung zwei freie Plätze, erscheinen die Tasten dort ("VOICE AGAIN", "VOICE STOP")
+und werden dort eingestellt. Mit MAW 4.5 ist dort kein Platz frei.
 
-Zurück auf Englisch
--------------------
-Stelle "Sprache" im Spiel auf English und starte neu. Oder schreibe in MAWSettings.lua  language = "en"
+Was die Mod an deinem Spiel ändert
+----------------------------------
+Originalspiel, MMMerge, Spielstände: nichts. GermanT.lod und GermanD.lod werden nur gelesen.
+MAW: nur MAWSettings.lua. Der Installer trägt  language = "de"  ein, die Seite "Sprache / Language" ändert die
+Zeilen language, languageItems und languageShops. Alles andere in der Datei bleibt.
+Der Schalter "Sprachausgabe" wird in der Windows-Registry gespeichert, wo MMMerge seine Einstellungen ablegt.
+Alles andere sind neue Dateien (siehe Deinstallieren).
 
 Deinstallieren
 --------------
-Lösche die vier Skripte oben, den Ordner Data\Localization\de, die Ordner Data\Voices\NPC_de und
-Data\Voices\Char_de, den Ordner Tools\Voice sowie Install_German.exe und die Dateien
-MAW-NPC-Voices-DE-INSTALL.txt und MAW-NPC-Voices-DE-LICENSE.txt (bei Version 1.0.0:
-MAW-NPC-Voices-Deutsch-INSTALL.txt und -LICENSE.txt). Die Zeile language in MAWSettings.lua kann bleiben.
+1. Lösche in Scripts\General: zzzMaw_Language.lua, zzzMaw_LanguageMenu.lua, zzzMaw_LanguageUI.lua.
+2. Lösche die Ordner Data\Localization\de, Data\Voices\NPC_de, Data\Voices\Char_de und Tools\Voice.
+3. Lösche in Data\Voices: templates_de.tsv und chars_de.tsv.
+4. Lösche im Spielordner: Install_German.exe, MAW-NPC-Voices-DE-INSTALL.txt, MAW-NPC-Voices-DE-LICENSE.txt,
+   MawLanguageLog.txt und MawLanguageUntranslated.txt
+   (Version 1.0.0: MAW-NPC-Voices-Deutsch-INSTALL.txt und -LICENSE.txt).
+5. Nur wenn MAW NPC Voices EN NICHT installiert ist: Lösche auch Scripts\General\zzzMaw_NPCVoices.lua,
+   Data\Voices\names.tsv, Data\Voices\pics.tsv und NPCVoicesLog.txt.
+Die Zeilen language, languageItems und languageShops in MAWSettings.lua können bleiben; ohne die Mod beachtet MAW sie nicht.
 
 Wenn etwas nicht geht
 ---------------------
-* Stille: Prüfe, ob "Sprachausgabe" auf An steht und der Regler für Charakterstimmen nicht auf null steht.
-* Text ist noch englisch: Das ist ein Text, den das Spiel in einem Skript erzeugt, oder ein Text, den eine
-  neuere MAW-Version geändert hat. Schicke uns bitte die Datei MawLanguageUntranslated.txt aus dem Spielordner.
-* Fehlermeldungen: MawLanguageLog.txt und NPCVoicesLog.txt im Spielordner.
-* Fragen und Fehler: Seite "Issues" auf github.com/slovi21/maw-npc-voices-de
+* Der Installer meldet fehlende Dateien: GermanT.lod fehlt in Data, oder Install_German.exe liegt nicht im
+  Spielordner (dem Ordner mit MM8.exe).
+* Keine Stimmen: Steht "Sprachausgabe" auf An? Steht der Regler für Stimmen in den Spieloptionen über null?
+* Ein Text ist englisch: Eine neuere MAW-Version hat ihn geändert, oder er gehört zu Gegenständen, Läden oder
+  Häusern (Einstellungen oben).
+* Ein deutscher Text ist stumm: Einige Texte mit wechselnden Namen oder Zahlen haben keine Aufnahme.
+* "Check game files" im MAW-Hauptmenü führt unsere vier Skripte als "Unknown" auf: Das ist richtig so, die Mod
+  ist eine Ergänzung und kein Teil von MAW. Lösche die Skripte nicht.
+* Fehler melden: Seite "Issues" auf github.com/slovi21/maw-npc-voices-de. Hänge bitte MawLanguageLog.txt,
+  MawLanguageUntranslated.txt und NPCVoicesLog.txt aus dem Spielordner an.
 
 Das ist ein Fan-Projekt. Es stammt nicht von den Rechteinhabern von Might and Magic
 und ist nicht von ihnen genehmigt. Siehe MAW-NPC-Voices-DE-LICENSE.txt.
