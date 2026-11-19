@@ -39,6 +39,15 @@ Fehlen die beiden `.lod`-Dateien, bleiben nur diese Teile englisch; die NPC-Stim
 
 Die Mod ändert keine MAW-Datei. Einzelheiten, Einstellungen, Tasten und Deinstallation: [INSTALL.txt](INSTALL.txt).
 
+## Tasten im Spiel
+
+| Taste | Wirkung |
+|---|---|
+| F9 | wiederholt die letzte Sprachausgabe (innerhalb von 2 Sekunden erneut drücken für die davor, bis zu dreimal) |
+| F10 | beendet die Sprachausgabe |
+
+Andere Tasten lassen sich in `MAWSettings.lua` einstellen (`repeatVoiceKey`, `stopVoiceKey`), siehe INSTALL.txt.
+
 ## Was übersetzt und vertont ist
 
 * Dialoge, Begrüßungen und Gerüchte von MM6, MM7, MM8 und MAW: 965 Texte aus dem deutschen Originalspiel
