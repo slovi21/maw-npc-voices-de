@@ -1,4 +1,4 @@
-MAW NPC Voices Deutsch - Installation
+MAW NPC Voices DE - Installation
 ======================================
 
 Was du bekommst
@@ -8,7 +8,7 @@ Die deutsche Fassung für Might and Magic 8 mit MMMerge und MAW:
 * rund 4.500 deutsche Sprachaufnahmen für die Leute im Spiel (männliche und weibliche Stimme),
 * die deutschen Stimmen deiner Gruppenmitglieder (aus deinem eigenen Spiel erzeugt),
 * eine Einstellungsseite "Sprache / Language" im Spiel.
-Die Mod läuft allein. Die englischen Stimmen (MAW NPC Voices) brauchst du nicht.
+Die Mod läuft allein. Die englischen Stimmen (MAW NPC Voices EN) brauchst du nicht.
 
 Das brauchst du vorher
 ----------------------
@@ -22,7 +22,7 @@ Schließe das Spiel, bevor du installierst.
 
 Installation (rund 450 MB)
 --------------------------
-1. Entpacke MAW-NPC-Voices-Deutsch-<Version>.zip in den Spielordner
+1. Entpacke MAW-NPC-Voices-DE-<Version>.zip in den Spielordner
    (das ist der Ordner mit der MM8.exe). Antworte mit "Ja", wenn Windows fragt,
    ob Ordner zusammengeführt werden sollen.
 2. Doppelklicke im Spielordner auf Install_German.exe.
@@ -66,7 +66,8 @@ Deinstallieren
 --------------
 Lösche die vier Skripte oben, den Ordner Data\Localization\de, die Ordner Data\Voices\NPC_de und
 Data\Voices\Char_de, den Ordner Tools\Voice sowie Install_German.exe und die Dateien
-MAW-NPC-Voices-Deutsch-INSTALL.txt und MAW-NPC-Voices-Deutsch-LICENSE.txt. Die Zeile language in MAWSettings.lua kann bleiben.
+MAW-NPC-Voices-DE-INSTALL.txt und MAW-NPC-Voices-DE-LICENSE.txt (bei Version 1.0.0:
+MAW-NPC-Voices-Deutsch-INSTALL.txt und -LICENSE.txt). Die Zeile language in MAWSettings.lua kann bleiben.
 
 Wenn etwas nicht geht
 ---------------------
@@ -74,7 +75,7 @@ Wenn etwas nicht geht
 * Text ist noch englisch: Das ist ein Text, den das Spiel in einem Skript erzeugt, oder ein Text, den eine
   neuere MAW-Version geändert hat. Schicke uns bitte die Datei MawLanguageUntranslated.txt aus dem Spielordner.
 * Fehlermeldungen: MawLanguageLog.txt und NPCVoicesLog.txt im Spielordner.
-* Fragen und Fehler: Seite "Issues" auf github.com/slovi21/maw-npc-voices-deutsch
+* Fragen und Fehler: Seite "Issues" auf github.com/slovi21/maw-npc-voices-de
 
 Das ist ein Fan-Projekt. Es stammt nicht von den Rechteinhabern von Might and Magic
-und ist nicht von ihnen genehmigt. Siehe MAW-NPC-Voices-Deutsch-LICENSE.txt.
+und ist nicht von ihnen genehmigt. Siehe MAW-NPC-Voices-DE-LICENSE.txt.

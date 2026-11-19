@@ -25,8 +25,8 @@ in game: text about to be shown ─CRC32 of the normalized text = key─► file
 
 ## Quick start
 
-The English voice pack is a separate mod (`MAW NPC Voices`, repository
-`slovi21/maw-npc-voices`). This repository holds the same module
+The English voice pack is a separate mod (`MAW NPC Voices EN`, repository
+`slovi21/maw-npc-voices-en`). This repository holds the same module
 (`zzzMaw_NPCVoices.lua`) and plays the German recordings of the German
 edition with it; `INSTALL.txt` in the repository root tells how to install it.
 

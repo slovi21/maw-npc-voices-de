@@ -1,15 +1,15 @@
-# MAW NPC Voices Deutsch
+# MAW NPC Voices DE
 
 Die deutsche Fassung für **Might and Magic 8 mit MMMerge und der MAW-Mod**:
 deutsche Dialoge und Oberflächentexte, rund 4.500 deutsche Sprachaufnahmen für die Leute im Spiel
 und eine Einstellungsseite „Sprache / Language“ zum Umschalten zwischen Deutsch und Englisch.
 
 *English: a German edition (German texts and German NPC voices) for MMMerge with MAW. For English NPC voices
-see [MAW NPC Voices](https://github.com/slovi21/maw-npc-voices).*
+see [MAW NPC Voices EN](https://github.com/slovi21/maw-npc-voices-en).*
 
 ## Download
 
-`MAW-NPC-Voices-Deutsch-<Version>.zip` (rund 450 MB) auf der Seite [Releases](../../releases).
+`MAW-NPC-Voices-DE-<Version>.zip` (rund 450 MB) auf der Seite [Releases](../../releases).
 Mit `SHA256SUMS.txt` lässt sich der Download prüfen.
 
 ## Voraussetzungen
@@ -54,7 +54,7 @@ Die Mod ändert keine MAW-Datei. Einzelheiten, Einstellungen, Tasten und Deinsta
 | `Scripts/General/zzzMaw_Language.lua` | Sprachschalter: ersetzt die Texte durch die deutschen |
 | `Scripts/General/zzzMaw_LanguageMenu.lua` | Einstellungsseite „Sprache / Language“ |
 | `Scripts/General/zzzMaw_LanguageUI.lua` | deutsche Texte der MAW-Einstellungsseiten |
-| `Scripts/General/zzzMaw_NPCVoices.lua` | Sprachausgabe (dasselbe Modul wie in MAW NPC Voices) |
+| `Scripts/General/zzzMaw_NPCVoices.lua` | Sprachausgabe (dasselbe Modul wie in MAW NPC Voices EN) |
 | `Tools/Voice/de/` | Übersetzung, Aufnahmen, Paketbau und Installer (`install_german.py`, `build_release.py`) |
 
 ## Lizenz

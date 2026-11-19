@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Release build (runs on the maker's PC): the download package of MAW NPC Voices Deutsch and its checksum.
+Release build (runs on the maker's PC): the download package of MAW NPC Voices DE and its checksum.
 
     python build_release.py --work work --game "C:/.../Might and Magic 8 MAW Mod 4.5" --out C:/mawrelease --version 1.0.0
 
 Writes <out>/<version>/
-    MAW-NPC-Voices-Deutsch-<version>.zip   German texts, ElevenLabs voices, modules, tools, Install_German.exe
+    MAW-NPC-Voices-DE-<version>.zip   German texts, ElevenLabs voices, modules, tools, Install_German.exe
     SHA256SUMS.txt
 Nothing is published. The package holds NO original text or recording of the game (Data/GermanT.lod,
 Data/GermanD.lod): Install_German.exe makes them from the player's own files. This script checks that before it
@@ -112,8 +112,8 @@ def main(argv=None):
         print("building Install_German.exe failed (pip install pyinstaller)")
         return 1
     items += [(exe_dir / "Install_German.exe", "Install_German.exe")]
-    items += [(ROOT / n, f"MAW-NPC-Voices-Deutsch-{n}") for n in DOCS]  # a prefix: the English voices have their own INSTALL.txt
-    zip_path = out / f"MAW-NPC-Voices-Deutsch-{args.version}.zip"
+    items += [(ROOT / n, f"MAW-NPC-Voices-DE-{n}") for n in DOCS]  # a prefix: the English voices have their own INSTALL.txt
+    zip_path = out / f"MAW-NPC-Voices-DE-{args.version}.zip"
     names = write_zip(zip_path, items)
 
     # ---- check: nothing of the original game and no MAW file in the package

@@ -4,7 +4,7 @@ German edition, last step of the installation (runs on the player's PC).
 
     python install_german.py [--game "C:/.../Might and Magic 8 MAW Mod 4.5"] [--language de|en] [--target OTHER_FOLDER]
 
-The package MAW-NPC-Voices-Deutsch does not contain the original German texts and recordings of the game. This script creates them
+The package MAW-NPC-Voices-DE does not contain the original German texts and recordings of the game. This script creates them
 from the files of the player's own installation:
   * dialog texts:   Data/GermanT.lod  ->  Data/Localization/de/10_NPCGreet.txt ... (with data/texts_de_public.csv)
   * interface:      Data/GermanT.lod  ->  Data/Localization/de/2x_*.txt, 3x_*.txt, shops/, items/ (export_ui.py)
@@ -154,7 +154,7 @@ def main(argv=None):
             text = re.sub(r"^(\s*language\s*=\s*)\"[a-z]*\"", lambda m: m.group(1) + '"' + args.language + '"', text, count=1, flags=re.M)
         else:  # a fresh MAW install does not know the setting: add it as the first entry
             nl = "\r\n" if "\r\n" in text else "\n"
-            text = text.replace("return {", "return {" + nl + '    language = "' + args.language + '",   -- "de" German, "en" English (MAW NPC Voices Deutsch)', 1)
+            text = text.replace("return {", "return {" + nl + '    language = "' + args.language + '",   -- "de" German, "en" English (MAW NPC Voices DE)', 1)
         path.write_bytes(text.encode("utf-8"))
         print(f'MAWSettings.lua: language = "{args.language}"')
     print("Done.")

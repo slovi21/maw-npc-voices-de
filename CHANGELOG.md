@@ -1,5 +1,12 @@
 # Änderungen
 
+## 1.0.1 (2026-11-19)
+
+- Neuer Name: MAW NPC Voices DE (vorher MAW NPC Voices Deutsch). Download `MAW-NPC-Voices-DE-<Version>.zip`.
+- Anleitung: klarer, was im Paket ist (NPC-Stimmen, übersetzte Texte) und was der Installer erzeugt
+  (Originaltexte, Stimmen der Gruppenmitglieder).
+- Aufnahmen, Texte und Skripte sind unverändert.
+
 ## 1.0.0 (2026-11-18)
 
 Erste Veröffentlichung als eigene Ergänzung.
