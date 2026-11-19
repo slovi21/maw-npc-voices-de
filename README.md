@@ -26,6 +26,14 @@ nur ein paar Zeilen in der Einstellungsdatei `MAWSettings.lua` (siehe [Was die M
 | das Spiel auf Englisch, mit englischen Stimmen | [MAW NPC Voices EN](https://github.com/slovi21/maw-npc-voices-en) |
 | im Spiel zwischen Deutsch und Englisch umschalten, beide mit Stimmen | beide Mods; sie vertragen sich |
 
+**Der Unterschied der beiden Mods:**
+
+| | EN-Mod | DE-Mod (diese) |
+|---|---|---|
+| Wer hat die Stimmen gemacht? | wir, mit dem freien KI-Sprachprogramm Kokoro | NPC-Stimmen: wir, mit der KI ElevenLabs; Heldenstimmen: das deutsche Originalspiel |
+| Was erzeugt der Installer? | nichts, es gibt keinen | die Teile aus deinem deutschen MM8 (Originaltexte und Heldenstimmen), weil wir sie nicht weitergeben dürfen |
+| Download | rund 675 MB | rund 430 MB |
+
 ## Voraussetzungen
 
 * **Might and Magic 8 mit MMMerge und MAW**, so installiert, wie es die
