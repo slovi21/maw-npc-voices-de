@@ -1,5 +1,12 @@
 # Änderungen
 
+## 1.0.2 (2026-11-19)
+
+- Anleitung: genau erklärt, was im Paket ist und was Install_German.exe aus dem eigenen Spiel erzeugt.
+- Anleitung: GermanT.lod ist nötig (ohne sie bricht der Installer ab), GermanD.lod nur für die Heldenstimmen.
+- Anleitung: Abschnitt „Einstellungen im Spiel“ (Seite „Sprache / Language“, Lautstärke, Tasten).
+- Aufnahmen, Texte und Skripte sind unverändert.
+
 ## 1.0.1 (2026-11-19)
 
 - Neuer Name: MAW NPC Voices DE (vorher MAW NPC Voices Deutsch). Download `MAW-NPC-Voices-DE-<Version>.zip`.
