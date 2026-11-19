@@ -151,8 +151,7 @@ teilen sich beide Mods drei Dateien; sie sind in beiden Paketen gleich, das Übe
 2. Lösche die Ordner `Data\Localization\de`, `Data\Voices\NPC_de`, `Data\Voices\Char_de` und `Tools\Voice`.
 3. Lösche in `Data\Voices` die Dateien `templates_de.tsv` und `chars_de.tsv`.
 4. Lösche im Spielordner `Install_German.exe`, `MAW-NPC-Voices-DE-INSTALL.txt`, `MAW-NPC-Voices-DE-LICENSE.txt`,
-   `MawLanguageLog.txt` und `MawLanguageUntranslated.txt` (bei Version 1.0.0 heißen die zwei Textdateien
-   `MAW-NPC-Voices-Deutsch-…`).
+   `MawLanguageLog.txt` und `MawLanguageUntranslated.txt`.
 5. **Nur wenn MAW NPC Voices EN nicht installiert ist:** Lösche auch `Scripts\General\zzzMaw_NPCVoices.lua`,
    `Data\Voices\names.tsv`, `Data\Voices\pics.tsv` und `NPCVoicesLog.txt`.
 

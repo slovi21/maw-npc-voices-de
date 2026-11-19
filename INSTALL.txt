@@ -93,8 +93,7 @@ Deinstallieren
 2. Lösche die Ordner Data\Localization\de, Data\Voices\NPC_de, Data\Voices\Char_de und Tools\Voice.
 3. Lösche in Data\Voices: templates_de.tsv und chars_de.tsv.
 4. Lösche im Spielordner: Install_German.exe, MAW-NPC-Voices-DE-INSTALL.txt, MAW-NPC-Voices-DE-LICENSE.txt,
-   MawLanguageLog.txt und MawLanguageUntranslated.txt
-   (Version 1.0.0: MAW-NPC-Voices-Deutsch-INSTALL.txt und -LICENSE.txt).
+   MawLanguageLog.txt und MawLanguageUntranslated.txt.
 5. Nur wenn MAW NPC Voices EN NICHT installiert ist: Lösche auch Scripts\General\zzzMaw_NPCVoices.lua,
    Data\Voices\names.tsv, Data\Voices\pics.tsv und NPCVoicesLog.txt.
 Die Zeilen language, languageItems und languageShops in MAWSettings.lua können bleiben; ohne die Mod beachtet MAW sie nicht.

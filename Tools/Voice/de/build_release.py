@@ -2,7 +2,7 @@
 """
 Release build (runs on the maker's PC): the download package of MAW NPC Voices DE and its checksum.
 
-    python build_release.py --work work --game "C:/.../Might and Magic 8 MAW Mod 4.5" --out C:/mawrelease --version 1.0.0
+    python build_release.py --work work --game "C:/.../Might and Magic 8 MAW Mod 4.5" --out C:/mawrelease --version 1.0
 
 Writes <out>/<version>/
     MAW-NPC-Voices-DE-<version>.zip   German texts, ElevenLabs voices, modules, tools, Install_German.exe
@@ -81,7 +81,7 @@ def main(argv=None):
     ap.add_argument("--work", required=True, type=Path)
     ap.add_argument("--game", required=True, type=Path, help="install with the voice data (names.tsv)")
     ap.add_argument("--out", required=True, type=Path)
-    ap.add_argument("--version", default="1.0.0")
+    ap.add_argument("--version", default="1.0")
     args = ap.parse_args(argv)
     work, game = args.work.resolve(), args.game.resolve()
     out = args.out / args.version
