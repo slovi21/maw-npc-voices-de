@@ -58,6 +58,27 @@ Zum Schluss trägt der Installer in `MAWSettings.lua` die Zeile `language = "de"
 Seine Hilfsdateien löscht er wieder. Die Ergebnisse liegen in `Data\Localization\de` und `Data\Voices\Char_de`.
 Nach einem MAW-Update kannst du `Install_German.exe` einfach noch einmal starten.
 
+## Welche Dateien geändert werden
+
+| Bereich | Geändert? |
+|---|---|
+| **Originalspiel** (Might and Magic 8, auch `GermanT.lod` und `GermanD.lod`) | Nein. Der Installer liest die Dateien nur. |
+| **MMMerge** (Patch, Multiplayer, `mmmerge.T.lod`, Tabellen, Skripte) | Nein. |
+| **MAW** (Skripte, Daten) | Nein, mit einer Ausnahme: In der Einstellungsdatei `MAWSettings.lua` trägt der Installer die Zeile `language = "de"` ein. Die Seite „Sprache / Language“ ändert dort die Zeilen `language`, `languageItems` und `languageShops`. Alle anderen Einträge bleiben, wie sie sind. |
+
+Alles andere sind **neue Dateien**, die es vorher nicht gab:
+
+* `Scripts\General\zzzMaw_Language.lua`, `zzzMaw_LanguageMenu.lua`, `zzzMaw_LanguageUI.lua`, `zzzMaw_NPCVoices.lua`
+* `Data\Localization\de\` (die deutschen Texte)
+* `Data\Voices\NPC_de\`, `Data\Voices\Char_de\` und die Listen `names.tsv`, `pics.tsv`, `templates_de.tsv`, `chars_de.tsv` in `Data\Voices`
+* `Tools\Voice\`, `Install_German.exe`, `MAW-NPC-Voices-DE-INSTALL.txt`, `MAW-NPC-Voices-DE-LICENSE.txt`
+* beim Spielen: `NPCVoicesLog.txt`, `MawLanguageLog.txt` und `MawLanguageUntranslated.txt` im Spielordner
+
+Die Einstellung „Sprachausgabe An/Aus“ speichert das Spiel dort, wo MMMerge seine Einstellungen ablegt (Windows-Registry).
+Ist auch MAW NPC Voices EN installiert, haben beide Mods `zzzMaw_NPCVoices.lua`, `names.tsv` und `pics.tsv` gemeinsam.
+Die Dateien sind in beiden Paketen gleich, deshalb macht das Überschreiben nichts aus.
+Wir haben das nachgeprüft: Nach der Installation beider Mods und dem Lauf von `Install_German.exe` hatte sich im ganzen Spielordner nur `MAWSettings.lua` geändert.
+
 ## Installation
 
 1. Spiel schließen.
