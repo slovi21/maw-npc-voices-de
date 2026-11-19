@@ -16,8 +16,19 @@ Mit `SHA256SUMS.txt` lässt sich der Download prüfen.
 
 * Might and Magic 8 (GOG) mit MMMerge, Patch, Multiplayer und [MAW](https://github.com/Malekitsu/Maw-Mod-MMMerge),
   installiert nach der MAW-Anleitung. Das Spiel muss starten und laufen.
-* Im Spielordner `Data\GermanT.lod` und `Data\GermanD.lod`. Daraus erzeugt der Installer die deutschen
-  Originaltexte und die Stimmen der Gruppenmitglieder; sie sind nicht im Paket.
+* Im Spielordner `Data\GermanT.lod` und `Data\GermanD.lod` (aus der deutschen Spielversion).
+
+## Was im Paket ist und was der Installer erzeugt
+
+| | Herkunft |
+|---|---|
+| rund 4.500 deutsche NPC-Stimmen | **im Paket** (eigene Aufnahmen mit ElevenLabs) |
+| 2.903 per KI übersetzte Texte, Oberflächentexte | **im Paket** |
+| 965 deutsche Originaltexte | erzeugt der Installer aus deinem `GermanT.lod` |
+| Stimmen deiner Gruppenmitglieder | erzeugt der Installer aus deinem `GermanD.lod` |
+
+Originaltexte und Gruppenstimmen gehören zum deutschen Originalspiel und dürfen nicht weitergegeben werden.
+Fehlen die beiden `.lod`-Dateien, bleiben nur diese Teile englisch; die NPC-Stimmen und übrigen Texte sind trotzdem deutsch.
 
 ## Installation
 

@@ -14,9 +14,10 @@ Das brauchst du vorher
 ----------------------
 Might and Magic 8 (GOG) mit MMMerge, Patch, Multiplayer und der MAW-Mod, installiert in der
 Reihenfolge aus der MAW-Anleitung. Das Spiel muss starten und laufen.
-Dein Spielordner muss die Dateien Data\GermanT.lod und Data\GermanD.lod enthalten. Daraus erzeugt der
-Installer die Originaltexte und die Stimmen deiner Gruppenmitglieder. Diese Dateien sind nicht in
-unserem Paket. Fehlen sie, bleiben diese Stellen englisch.
+Dein Spielordner muss die Dateien Data\GermanT.lod und Data\GermanD.lod (deutsche Spielversion) enthalten.
+Die NPC-Stimmen und die übersetzten Texte sind im Paket. Nur die deutschen Originaltexte und die Stimmen
+deiner Gruppenmitglieder sind es nicht: Sie gehören zum Originalspiel, und der Installer erzeugt sie aus
+diesen beiden Dateien. Fehlen die Dateien, bleiben nur diese Stellen englisch.
 Schließe das Spiel, bevor du installierst.
 
 Installation (rund 450 MB)
