@@ -9,3 +9,6 @@ __pycache__/
 NPCVoicesLog.txt
 MawLanguageLog.txt
 MawLanguageUntranslated.txt
+
+# Promo-Video: Mitschnitt, Ton und Zwischenstaende (enthalten Spielton)
+promo/
