@@ -5,7 +5,7 @@ Was du bekommst
 ---------------
 Might and Magic 8 mit MMMerge und MAW auf Deutsch, in allen drei Welten (MM6, MM7, MM8) und in den Ergänzungen von MAW:
 * deutsche Dialoge, Begrüßungen, Gerüchte und Oberflächentexte,
-* rund 4.500 deutsche Sprachaufnahmen für die Leute im Spiel (Männer und Frauen mit verschiedenen Stimmen),
+* rund 6.800 deutsche Sprachaufnahmen für die Leute im Spiel (Männer und Frauen mit verschiedenen Stimmen),
 * deutsche Stimmen für deine Helden (aus deinem eigenen Spiel erzeugt),
 * eine Einstellungsseite "Sprache / Language" im Spiel.
 Die Mod läuft allein. Die englischen Stimmen (MAW NPC Voices EN) brauchst du nicht, sie vertragen sich aber mit dieser Mod.
@@ -24,7 +24,7 @@ Das brauchst du vorher
   Dateien schon in Data. Sonst lade bei GOG die deutsche Sprachversion herunter und kopiere nur diese zwei Dateien
   aus deren Ordner Data in den Ordner Data deines Spielordners.
 
-Installation (rund 430 MB)
+Installation (rund 600 MB)
 --------------------------
 1. Schließe das Spiel.
 2. Entpacke MAW-NPC-Voices-DE-<Version>.zip in den Spielordner. Fragt Windows, ob Ordner zusammengeführt

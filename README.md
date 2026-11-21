@@ -1,6 +1,6 @@
 # MAW NPC Voices DE
 
-Might and Magic 8 mit der Fan-Mod MAW **auf Deutsch**: deutsche Texte und rund 4.500 deutsche Sprachaufnahmen
+Might and Magic 8 mit der Fan-Mod MAW **auf Deutsch**: deutsche Texte und rund 6.800 deutsche Sprachaufnahmen
 für die Leute im Spiel, in allen drei Welten (MM6, MM7, MM8) und in den Ergänzungen von MAW.
 
 *English: a German edition (German texts and German NPC voices) for MMMerge with MAW. For English NPC voices
@@ -10,7 +10,7 @@ see [MAW NPC Voices EN](https://github.com/slovi21/maw-npc-voices-en).*
 
 1. Prüfe, ob im Spielordner im Ordner `Data` die Datei `GermanT.lod` liegt (siehe [Voraussetzungen](#voraussetzungen)).
 2. [Zum Download](https://github.com/slovi21/maw-npc-voices-de/releases/latest): Klicke dort unter „Assets“ auf
-   `MAW-NPC-Voices-DE-…zip` (rund 430 MB).
+   `MAW-NPC-Voices-DE-…zip` (rund 600 MB).
 3. Schließe das Spiel und entpacke die Zip-Datei in den Spielordner.
 4. Doppelklicke im Spielordner auf `Install_German.exe` und warte auf „Done.“
 5. Starte das Spiel. Es ist jetzt deutsch.
@@ -32,7 +32,7 @@ nur ein paar Zeilen in der Einstellungsdatei `MAWSettings.lua` (siehe [Was die M
 |---|---|---|
 | Wer hat die Stimmen gemacht? | wir, mit dem freien KI-Sprachprogramm Kokoro | NPC-Stimmen: wir, mit der KI ElevenLabs; Heldenstimmen: das deutsche Originalspiel |
 | Was erzeugt der Installer? | nichts, es gibt keinen | die Teile aus deinem deutschen MM8 (Originaltexte und Heldenstimmen), weil wir sie nicht weitergeben dürfen |
-| Download | rund 675 MB | rund 430 MB |
+| Download | rund 675 MB | rund 600 MB |
 
 ## Voraussetzungen
 
@@ -68,8 +68,9 @@ Nach einem MAW-Update kannst du `Install_German.exe` einfach noch einmal starten
 
 **Im Download steckt alles, was wir selbst gemacht haben:**
 
-* rund 4.500 deutsche Sprachaufnahmen für die Leute im Spiel, aufgenommen mit ElevenLabs. Männer und Frauen
-  sprechen mit verschiedenen Stimmen.
+* rund 6.800 deutsche Sprachaufnahmen für die Leute im Spiel, aufgenommen mit ElevenLabs. Männer und Frauen
+  sprechen mit verschiedenen Stimmen; Texte, die Leute beider Geschlechter sagen (Straßen-Nachrichten, Berufstexte,
+  Anheuer-Sätze), gibt es in einer Männer- und einer Frauenstimme, und der NPC im Gespräch bestimmt, welche spielt.
 * deutsche Begrüßungen der Ladenbesitzer (eigene Aufnahmen)
 * unsere deutschen Übersetzungen: 2.903 Dialoge, für die es kein passendes deutsches Original gibt (vor allem aus
   MM6, MM7 und MAW), und die Texte, die MMMerge und MAW hinzugefügt haben. Die Übersetzungen stammen von einer KI
