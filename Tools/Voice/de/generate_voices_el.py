@@ -116,7 +116,8 @@ def main(argv=None):
                     help="record work/gegengeschlecht.csv (mixed_gender.py): the second voice of texts that men and "
                          "women speak, as <key_de>-<m|f>.ogg")
     ap.add_argument("--templates", action="store_true",
-                    help="record work/templates_de.csv (templates_de.py): the texts with placeholders, one file per value")
+                    help="record work/templates_de.csv (templates_de.py): the texts with placeholders, one file per value; "
+                         "with --variants work/gegengeschlecht_vorlagen.csv (mixed_gender.py): their second voice")
     ap.add_argument("--model", default="eleven_v4_turbo")
     ap.add_argument("--reserve", type=int, default=2000, help="stop when fewer credits would be left")
     ap.add_argument("--workers", type=int, default=3)
@@ -125,7 +126,9 @@ def main(argv=None):
     ap.add_argument("--dry-run", action="store_true", help="count texts and estimate the cost, call nothing")
     args = ap.parse_args(argv)
 
-    source = "templates_de.csv" if args.templates else "gegengeschlecht.csv" if args.variants else "prioritaet.csv"
+    source = ("gegengeschlecht_vorlagen.csv" if args.templates and args.variants else
+              "templates_de.csv" if args.templates else
+              "gegengeschlecht.csv" if args.variants else "prioritaet.csv")
     rows = list(csv.DictReader((args.work / source).open(encoding="utf-8")))
     texts = {r["key_en"]: r["text_de"] for r in csv.DictReader((args.work / "texts_de.csv").open(encoding="utf-8"))}
     if args.templates:  # the spoken text is in the file, the file name is the key itself

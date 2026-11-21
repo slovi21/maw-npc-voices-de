@@ -1,5 +1,18 @@
 # Änderungen
 
+## 1.1 (2026-11-21)
+
+Männer hören keine Frauenstimmen mehr und umgekehrt.
+
+- Neu: 2.302 Sprachaufnahmen in der zweiten Stimme für Texte, die Leute beider Geschlechter sagen: alle
+  Straßen-Nachrichten, die Berufstexte, die Anheuer-Sätze und der Tagesgruß. Der NPC im Gespräch bestimmt,
+  ob die Männer- oder die Frauenstimme spielt. Vorher gab es dafür nur eine Aufnahme, sodass etwa jeder zweite
+  Straßen-NPC die falsche Stimme hatte.
+- Behoben: Andover Potbello galt als Frau. Die Zuordnung Portrait → Geschlecht (`pics.tsv`) stützte sich bei
+  zehn Portraits auf Namen, die in der Männer- und der Frauenliste stehen (Pat, Robin, Heather, …). Diese Namen
+  stimmen nicht mehr ab.
+- Das Paket wächst auf rund 600 MB.
+
 ## 1.0 (2026-11-19)
 
 Erste Veröffentlichung als eigene Ergänzung.
